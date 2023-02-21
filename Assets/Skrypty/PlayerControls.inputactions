@@ -1,0 +1,34 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Phone",
+            "id": "0ba94671-0c63-4e20-935c-e8f3b21d9f84",
+            "actions": [
+                {
+                    "name": "SpawnPrefab",
+                    "type": "Button",
+                    "id": "2c077d45-b17e-44c1-8eb1-941041a39598",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b213b62-154f-4250-99f6-c9cb171f6659",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnPrefab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
